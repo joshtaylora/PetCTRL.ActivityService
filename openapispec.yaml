@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  title: PetCTRL Activity Service API
+  description: API Spec for the PetCTRL Activity Service API that manages activities and activity types.
+  version: 1.0.0
+host: www
+schemes:
+  - https
+paths:
+  /activities:
+    get:
+      description: Returns a list of activities.
+      responses:
+        '200':
+          description: Successfully returned a list of activities.
+  
